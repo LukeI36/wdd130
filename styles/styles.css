@@ -35,8 +35,8 @@ aside {
     margin: 2rem;
     border: 5px solid #ff0000;
     padding: 1rem;
-    background-color: #a86767;
-    color: #fff;
+    background-color: #eee;
+    color: #ff0000;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ p {
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 1rem;
     border-top: 2px solid black;
     text-align: center;
 }
