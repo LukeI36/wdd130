@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: rgb(33, 134, 33);
     --canada-color: #ff0000;
     --margin-spacing: 2rem;
     --border-color: black;
+    --text-color: black;
 }
 
 nav {
@@ -26,6 +33,7 @@ main img {
     border: 1px solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px grey;
+    float: right;
 }
 
 aside img {
@@ -38,13 +46,16 @@ main {
 }
 
 aside {
+    position: relative;
     width: 40rem;
-    margin: var(--margin-spacing);
     border: 5px solid var(--canada-color);
-    padding: 1rem;
-    background-color: #eee;
-    color: var(--canada-color);
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 320px;
 }
 
 p {
@@ -55,4 +66,13 @@ footer {
     margin-top: var(--margin-spacing);
     border-top: 2px solid var(--border-color);
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: var(--margin-spacing);
+    padding: 1rem;
+    background-color: #eee;
+    color: var(--text-color);
 }
