@@ -2,7 +2,7 @@
     --primary-color: #1c6eb7;
     --secondary-color: #e0970d;
     --accent1-color: #0b2244;
-    --accent2-color: #9e700d;
+    /*Unused: --accent2-color: #9e700d;*/
     --heading-font: Georgia, serif;
     --body-font: Tahoma, sans-serif;
 }
@@ -70,7 +70,7 @@ h2 {
     text-align: center;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 65px;
     background-color: var(--secondary-color);
