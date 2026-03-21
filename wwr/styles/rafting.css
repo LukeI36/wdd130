@@ -2,7 +2,6 @@
     --primary-color: #1c6eb7;
     --secondary-color: #e0970d;
     --accent1-color: #0b2244;
-    /*Unused: --accent2-color: #9e700d;*/
     --heading-font: Georgia, serif;
     --body-font: Tahoma, sans-serif;
 }
@@ -23,6 +22,10 @@ main,
 footer {
     width: 840px;
     margin: 0 auto
+}
+
+header {
+    text-align: center;
 }
 
 h1,
