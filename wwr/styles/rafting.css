@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #1c6eb7;
+    --secondary-color: #e0970d;
+    --accent1-color: #0b2244;
+    --accent2-color: #9e700d;
+    --heading-font: Georgia, serif;
+    --body-font: Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
