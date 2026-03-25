@@ -7,7 +7,9 @@ body {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .flex-item {
