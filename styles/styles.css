@@ -12,19 +12,33 @@
     --text-color: black;
 }
 
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: var(--primary-color);
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
 }
 
 main img {
@@ -43,19 +57,23 @@ aside img {
 
 main {
     max-width: 840px;
+    grid-column: 2 / 3;
+    margin: 1rem;
 }
 
 aside {
     position: relative;
-    width: 40rem;
+    width: 20rem;
     border: 5px solid var(--canada-color);
     text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 aside h2 {
     position: absolute;
-    top: 30px;
-    left: 320px;
+    top: 20px;
+    left: 120px;
 }
 
 p {
@@ -75,4 +93,10 @@ footer {
     padding: 1rem;
     background-color: #eee;
     color: var(--text-color);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
