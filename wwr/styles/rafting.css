@@ -31,6 +31,7 @@ header {
     text-align: center;
     margin: 1rem auto;
     background-color: var(--primary-color);
+    color: var(--primary-text);
     display: grid;
     grid-template-columns: 45% 55%;
     place-items: center;
