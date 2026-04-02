@@ -231,6 +231,7 @@ footer {
 
 .map-and-form iframe {
     grid-column: 1/2;
+    border: 0;
 }
 
 .map-and-form form {
