@@ -88,6 +88,23 @@ h2 {
     text-align: center;
 }
 
+input,
+textarea,
+button {
+    padding: .5rem;
+    margin: .5rem;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+}
+
+button:hover {
+    background-color: var(--primary-background);
+    color: var(--accent1-color);
+}
+
 footer {
     background-color: var(--primary-color);
     color: var(--primary-text);
@@ -96,7 +113,7 @@ footer {
     align-items: center;
 }
 
-/* class selectors */
+/* classes */
 
 .hero {
     position: relative;
@@ -128,7 +145,8 @@ footer {
     align-items: center;
 }
 
-.history h2 {
+.history h2,
+.employers h2 {
     text-align: center;
     grid-column: 1/4;
     padding: 0.5rem;
@@ -155,7 +173,8 @@ footer {
     margin: 0.5rem;
 }
 
-.adventure figure {
+.adventure figure,
+.employers figure {
     text-align: center;
     align-items: center;
 }
@@ -179,4 +198,66 @@ footer {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.contact-title {
+    position: relative;
+}
+
+.contact-title h1 {
+    opacity: 1;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.map-and-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 10px
+}
+
+.map-and-form form,
+.map-and-form iframe {
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+}
+
+.map-and-form iframe {
+    grid-column: 1/2;
+}
+
+.map-and-form form {
+    grid-column: 2/3;
+    display: grid;
+    background-color: var(--accent1-color);
+    color: var(--primary-text);
+    padding: 1rem;
+    border-radius: 5px;
+    height: 25rem;
+    width: auto;
+}
+
+.map-and-form form p,
+.map-and-form form section {
+    padding: 0;
+    margin: 0;
+}
+
+.employers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.25fr 1fr;
+    align-items: center;
+}
+
+.employers img {
+    height: 15rem;
+    width: auto;
 }
