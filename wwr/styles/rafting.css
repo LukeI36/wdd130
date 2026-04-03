@@ -93,7 +93,7 @@ input,
 textarea,
 button {
     padding: .5rem;
-    margin: .5rem;
+    margin: .5rem 0;
 }
 
 button {
@@ -115,6 +115,8 @@ footer {
 }
 
 /* classes */
+
+/* about us classes */
 
 .hero {
     position: relative;
@@ -201,6 +203,8 @@ footer {
     text-decoration: none;
 }
 
+/* contact us classes */
+
 .contact-info h1 {
     opacity: 1;
     position: relative;
@@ -218,6 +222,7 @@ footer {
 .map-and-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -241,12 +246,41 @@ footer {
     color: var(--primary-text);
     padding: 1rem;
     border-radius: 5px;
+    font-size: .9rem;
 }
 
-.map-and-form form p,
-.map-and-form form section {
-    padding: 0;
+.column-input {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    text-align: left;
+    align-items: center;
+}
+
+.message-purpose {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.message-purpose p {
+    grid-row: 1/4;
+    grid-column: 1/2;
+    text-align: left;
     margin: 0;
+    padding: 0;
+}
+
+.option {
+    margin: .25rem;
+    padding: 0;
+}
+
+.checkbox {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 1rem auto;
 }
 
 .employers {
