@@ -282,9 +282,21 @@ footer {
 }
 
 .checkbox {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    margin: .5rem auto;
+    padding: .5rem auto;
+    align-items: center;
+}
+
+.checkbox input[type="checkbox"] {
+    justify-content: flex-start;
+}
+
+.checkbox label {
+    font-size: .80rem;
+    justify-content: flex-end;
+    margin: 1rem;
 }
 
 .employers {
