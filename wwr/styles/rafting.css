@@ -348,7 +348,6 @@ footer {
 .trips img {
     width: 20rem;
     height: auto;
-    margin: 0 0 0 1;
     border-radius: var(--default-border-radius);
 }
 
