@@ -367,6 +367,7 @@ thead th {
     height: 7rem;
     width: auto;
     border-radius: var(--default-border-radius);
+    border: 5px solid var(--primary-color);
 }
 
 .trips {
