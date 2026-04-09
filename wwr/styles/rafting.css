@@ -340,20 +340,20 @@ thead th {
 
 /* Trips classes */
 
-.trip_details {
+.trip-details {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.22fr 1fr;
     margin: .5rem auto;
 }
 
-.trip_details h1 {
+.trip-details h1 {
     grid-column: 1/5;
     grid-row: 1/2;
     align-items: center;
 }
 
-.trip_details figure {
+.trip-details figure {
     background-color: var(--accent1-color);
     color: var(--primary-text);
     border-radius: var(--default-border-radius);
@@ -363,7 +363,7 @@ thead th {
     padding: 1rem;
 }
 
-.trip_details img {
+.trip-details img {
     height: 7rem;
     width: auto;
     border-radius: var(--default-border-radius);
