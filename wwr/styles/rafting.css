@@ -147,11 +147,6 @@ form {
 
 /* index classes */
 
-.home {
-    width: 100%;
-    margin: 0 auto;
-}
-
 .front {
     position: relative;
     background-color: var(--accent1-color);
@@ -162,8 +157,7 @@ form {
 .front h1 {
     position: absolute;
     background-color: var(--accent1-color);
-    font-size: 4rem;
-    top: 30rem;
+    top: 20rem;
     text-align: center;
 }
 
@@ -189,17 +183,25 @@ form {
     left: 3rem;
 }
 
-.home-content {
+.learn-more {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.map-and-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.learn-more section {
+    background-color: var(--accent1-color);
+    color: var(--primary-text);
+    text-align: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: var(--default-border-radius);
+    font-size: 1.1rem;
+}
+
+.learn-more a {
+    color: var(--primary-text);
+    font-weight: bold;
 }
 
 .newsletter {
@@ -209,12 +211,12 @@ form {
 
 .newsletter h3 {
     text-align: center;
-    margin: .5rem auto;
+    margin: 1rem auto;
+    font-size: 1.1rem;
 }
 
 .newsletter form {
-    padding: 1rem;
-    font-size: .8rem;
+    font-size: .75rem;
 }
 
 .newsletter button {
