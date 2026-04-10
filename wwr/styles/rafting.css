@@ -80,7 +80,7 @@ h1 {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--primary-text);
 }
 
 h2 {
@@ -138,15 +138,6 @@ thead th {
     text-align: center;
 }
 
-.title h1 {
-    opacity: 1;
-    position: relative;
-    border-radius: var(--default-border-radius);
-    top: 0;
-    padding: 8px;
-    text-align: center;
-}
-
 form {
     background-color: var(--accent1-color);
     color: var(--primary-text);
@@ -169,10 +160,13 @@ form {
 }
 
 .front h1 {
-    position: absolute;
+    display: inline-block;
     background-color: var(--accent1-color);
     font-size: 4rem;
     top: 30rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .front img {
@@ -195,6 +189,38 @@ form {
     height: auto;
     top: 3rem;
     left: 3rem;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.map-and-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.newsletter {
+    margin: 0;
+    align-items: center;
+}
+
+.newsletter h3 {
+    text-align: center;
+    margin: .5rem auto;
+}
+
+.newsletter form {
+    padding: 1rem;
+    font-size: .8rem;
+}
+
+.newsletter button {
+    width: 100%;
 }
 
 /* about us classes */
@@ -385,6 +411,15 @@ form {
 }
 
 /* Trips classes */
+
+.title h1 {
+    opacity: 1;
+    position: relative;
+    border-radius: var(--default-border-radius);
+    top: 0;
+    padding: 8px;
+    text-align: center;
+}
 
 .trip-details {
     display: grid;
