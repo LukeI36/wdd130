@@ -160,13 +160,11 @@ form {
 }
 
 .front h1 {
-    display: inline-block;
+    position: absolute;
     background-color: var(--accent1-color);
     font-size: 4rem;
     top: 30rem;
     text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .front img {
