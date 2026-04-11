@@ -233,7 +233,6 @@ form {
 /* index classes */
 
 .front {
-    background-color: var(--accent1-color);
     margin: 2rem auto;
 }
 
@@ -245,7 +244,7 @@ form {
 }
 
 .front img {
-    opacity: 0.75;
+    opacity: 1;
     width: 100%;
     height: auto;
 }
@@ -267,6 +266,7 @@ form {
 
 .context {
     display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .context section {
