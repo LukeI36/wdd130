@@ -272,7 +272,7 @@ form {
 .context section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.25 1fr;
+    grid-template-rows: 0.1fr 1fr;
     border-radius: var(--default-border-radius);
     background-color: var(--accent1-color);
     color: var(--primary-text);
